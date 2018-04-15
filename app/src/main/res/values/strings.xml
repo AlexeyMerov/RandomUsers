@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RandomUsers</string>
+    <string name="google_geo_api_key">AIzaSyATtclNnY8ewLUTmwOdCqKmWrFbsKJC_IE</string>
+    <string name="logout">Logout</string>
+    <string name="sign_in_by_google">Sign In By Google</string>
+    <string name="users_list_title">Users List</string>
+</resources>
