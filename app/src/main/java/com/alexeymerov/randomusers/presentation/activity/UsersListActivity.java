@@ -196,6 +196,7 @@ public class UsersListActivity extends BaseActivity implements NavigationView.On
                 status -> {
                     mUserViewModel.clearAllData();
                     startActivity(AuthActivity.newInstance(this));
+                    finish();
                 });
     }
 }

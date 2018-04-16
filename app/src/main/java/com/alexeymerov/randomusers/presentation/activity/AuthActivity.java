@@ -38,7 +38,7 @@ public class AuthActivity extends BaseActivity {
 
     public static Intent newInstance(Context context) {
         Intent intent = new Intent(context, AuthActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         return intent;
     }
 
